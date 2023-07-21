@@ -1,6 +1,6 @@
 baseurl = "https://jankudev.github.io/"
 title = "janku.dev"
-theme = "coder"
+theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 

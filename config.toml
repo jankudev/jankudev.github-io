@@ -1,0 +1,82 @@
+# main
+title = 'Tomas Janku'
+baseURL = 'https://janku.dev/'
+
+# theme
+theme = 'gokarna'
+
+# language settings
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+# Menu configuration
+[menu]
+  # We use feather-icons: https://feathericons.com/
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About me"
+    pre = "<span data-feather='user'></span>"
+    url = "/pages/aboutme"
+    weight = 2
+
+  [[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    url = "/posts/"
+    weight = 3
+    pre = "<span data-feather='book'></span>"
+
+  [[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    url = "/projects/"
+    weight = 4
+    pre = "<span data-feather='code'></span>"
+
+  [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
+    weight = 5
+    pre = "<span data-feather='tag'></span>"
+   
+  [[menu.main]]
+    identifier = "github"
+    url = "https://github.com/jankudev"
+    weight = 6
+    pre = "<span data-feather='github'></span>"
+    
+# Params for Gokarma theme - see https://gokarna-hugo.netlify.app/posts/theme-documentation-basics/
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "https://avatars.githubusercontent.com/u/54034757?v=4"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = ""
+
+  # Description to display on homepage
+  description = ""
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # Display "back to top" button on posts
+  ShowBackToTopButton = true
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # Footer text
+  footer = "janku.dev"
